@@ -21,3 +21,6 @@ alias sftplince='sshpass -p termolab sftp lince@148.213.104.133'
 alias sftpmapachito='sshpass -p termolab sftp mapachito@148.213.104.138'
 alias sftpcocodrilo='sshpass -p termolab sftp cocodrilo@148.213.104.141'
 #####################################
+
+
+scp -P 3030 -r /home/suricata/Documents/potenciaHDZVIEJO abs_a@132.248.202.199:/LANCAD/home/naude_g/abs_a
