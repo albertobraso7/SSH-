@@ -24,3 +24,11 @@ alias sftpcocodrilo='sshpass -p termolab sftp cocodrilo@148.213.104.141'
 
 
 scp -P 3030 -r /home/suricata/Documents/potenciaHDZVIEJO abs_a@132.248.202.199:/LANCAD/home/naude_g/abs_a
+
+OSIDIFF
+Append attribute
+100*((abs((OSI_input_1)-(OSI)))/(OSI_input_1))
+o
+python calculator
+100*(abs(inputs[1].PointData['OSI'] - inputs[0].PointData['OSI']))/(inputs[1].PointData['OSI'])
+
