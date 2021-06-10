@@ -24,6 +24,7 @@ alias sftpcocodrilo='sshpass -p termolab sftp cocodrilo@148.213.104.141'
 
 
 scp -P 3030 -r /home/suricata/Documents/potenciaHDZVIEJO abs_a@132.248.202.199:/LANCAD/home/naude_g/abs_a
+rsync -avx -e "ssh -p 3030" --progress abs_a@132.248.202.199:/LANCAD/home/naude_g/abs_a/aneurysms/esparza/esparzaNewto .
 
 OSIDIFF
 Append attribute
