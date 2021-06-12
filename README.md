@@ -36,3 +36,5 @@ python calculator
 100*(abs(inputs[1].PointData['OSI'] - inputs[0].PointData['OSI']))/(inputs[1].PointData['OSI'])
 ########################################################################################
 
+echo $i `grep "Execution" log | tail -n 1 | cut -d " " -f 3`
+
