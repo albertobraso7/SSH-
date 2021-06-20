@@ -35,6 +35,13 @@ o
 python calculator
 100*(abs(inputs[1].PointData['OSI'] - inputs[0].PointData['OSI']))/(inputs[1].PointData['OSI'])
 ########################################################################################
-
+Obtener tiempo de ejecución
 echo $i `grep "Execution" log | tail -n 1 | cut -d " " -f 3`
+###################################################################
+Buscar y cambiar palabras en un directorio
+find ./2.** -name "*U" -print | xargs sed -i "s/newMovingWallVelocity/zeroGradient/g"
+
+
+
+
 
