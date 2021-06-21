@@ -34,6 +34,7 @@ Append attribute
 o
 python calculator
 100*(abs(inputs[1].PointData['OSI'] - inputs[0].PointData['OSI']))/(inputs[1].PointData['OSI'])
+100*(abs(inputs[1].PointData['magWssPD'] - inputs[0].PointData['magWssPD']))/(inputs[1].PointData['magWssPD'])
 ########################################################################################
 Obtener tiempo de ejecución
 echo $i `grep "Execution" log | tail -n 1 | cut -d " " -f 3`
