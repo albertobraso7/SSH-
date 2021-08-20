@@ -44,5 +44,7 @@ find ./2.** -name "*U" -print | xargs sed -i "s/newMovingWallVelocity/zeroGradie
 
 
 
+checkMesh -writeSets vtk
+
 
 
