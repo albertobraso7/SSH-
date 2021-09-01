@@ -43,6 +43,12 @@ Buscar y cambiar palabras en un directorio
 find ./2.** -name "*U" -print | xargs sed -i "s/newMovingWallVelocity/zeroGradient/g"
 
 
+Install swak4foam in windows
+
+sudo apt-get install mercurial
+sudo apt install python-is-python3
+sudo apt-get install make
+
 
 checkMesh -writeSets vtk
 
