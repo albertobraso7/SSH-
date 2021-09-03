@@ -41,6 +41,8 @@ echo $i `grep "Execution" log | tail -n 1 | cut -d " " -f 3`
 ###################################################################
 Buscar y cambiar palabras en un directorio
 find ./2.** -name "*U" -print | xargs sed -i "s/newMovingWallVelocity/zeroGradient/g"
+find $FOAM_SRC -name Make
+grep -r –i “tintin” /home/tin/Downloads
 
 
 Install swak4foam in windows
