@@ -43,6 +43,8 @@ Buscar y cambiar palabras en un directorio
 find ./2.** -name "*U" -print | xargs sed -i "s/newMovingWallVelocity/zeroGradient/g"
 find $FOAM_SRC -name Make
 grep -r –i “tintin” /home/tin/Downloads
+sed -i s/icoFoam/myIcoFoam/g myIcoFoam/Make/files
+
 
 
 Install swak4foam in windows
