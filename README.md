@@ -27,6 +27,9 @@ scp -P 3030 -r /home/suricata/Documents/potenciaHDZVIEJO abs_a@132.248.202.199:/
 rsync -avx -e "ssh -p 3030" --progress abs_a@132.248.202.199:/LANCAD/home/naude_g/abs_a/aneurysms/esparza/esparzaNewto .
 tmux new -A -s prueba
 
+
+rsync -avx -e ssh --progress ./C053 abs_a@132.247.177.99:/tmpu/naude_g/abs_a/Aneurismas
+rsync -avx -e ssh --progress abs_a@132.247.177.99:/tmpu/naude_g/abs_a/Aneurismas/C043 .
 #####################################################################
 OSIDIFF
 Append attribute
