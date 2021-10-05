@@ -31,7 +31,7 @@ tmux new -A -s prueba
 rsync -avx -e ssh --progress ./C053 abs_a@132.247.177.99:/tmpu/naude_g/abs_a/Aneurismas
 rsync -avx -e ssh --progress abs_a@132.247.177.99:/tmpu/naude_g/abs_a/Aneurismas/C043 .
 
-rsync -avx -e ssh --progress ocelote@148.213.104.137:/media/ocelote/00d1c6d2-c9cc-463b-b452-c5051c0f3047/ocelote/Documents/Aneurismas .
+rsync -avx -e ssh --progress ocelote@148.213.104.137:/media/ocelote/00d1c6d2-c9cc-463b-b452-c5051c0f3047/ocelote/Documents/Aneurismas/C020 .
 
 cp ../C09/system/{fv*,decomposeParDict} system/ && cp ../C09/constant/transportProperties constant/
 #####################################################################
