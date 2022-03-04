@@ -52,7 +52,7 @@ find $FOAM_SRC -name Make
 grep -r –i “tintin” /home/tin/Downloads
 sed -i s/icoFoam/myIcoFoam/g myIcoFoam/Make/files
 
-
+find ./processor*/0.218/fluid -name "*U" -print | xargs sed -i "s/R=0.2;/R=0.37;/g"
 
 Install swak4foam in windows
 
